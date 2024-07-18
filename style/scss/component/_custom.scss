@@ -1,0 +1,241 @@
+// Custom Isi Detail Berita
+.news-content {
+  blockquote {
+    margin-bottom: 20px !important;
+    position: relative;
+    display: flex !important;
+    flex-direction: column !important;
+
+    p {
+      color: $gray-title;
+      margin-bottom: 0px !important;
+      font-family: 'Inter', sans-serif !important;
+      width: 100%;
+      padding: 5px 0px;
+      font-size: 20px;
+
+      a {
+        font-weight: 500 !important;
+        color: $primary !important;
+        font-size: 20px;
+
+        strong {
+          font-weight: 500 !important;
+          color: $primary !important;
+
+          a {
+            font-weight: 500 !important;
+            color: $primary !important;
+          }
+        }
+      }
+      b {
+        font-weight: 500 !important;
+        color: $primary !important;
+      }
+    }
+    a {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 14px;
+      color: $gray-bg-dark !important;
+      font-weight: 600;
+
+      &:hover {
+        color: $primary !important;
+      }
+    }
+  }
+  ol {
+    li {
+      font-family: 'Inter', serif !important;
+      font-size: 1rem;
+    }
+  }
+  ul {
+    li {
+      font-family: 'Inter', serif !important;
+      font-size: 1rem;
+    }
+  }
+  figcaption {
+    text-align: center !important;
+    font-size: 12px !important;
+  }
+  p {
+    font-family: 'Inter', sans-serif !important;
+
+    a {
+      color: $primary !important;
+    }
+  }
+  h1 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+
+    a {
+      color: $primary !important;
+    }
+    @media (min-width: $lg) {
+      font-size: 18px !important;
+    }
+  }
+  h2 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+
+    a {
+      color: $primary !important;
+    }
+    @media (min-width: $lg) {
+      font-size: 18px !important;
+    }
+  }
+  h3 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+
+    a {
+      color: $primary !important;
+    }
+    @media (min-width: $lg) {
+      font-size: 18px !important;
+    }
+  }
+  h4 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+
+    a {
+      color: $primary !important;
+    }
+    @media (min-width: $lg) {
+      font-size: 18px !important;
+    }
+  }
+  h5 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+
+    a {
+      color: $primary !important;
+    }
+    @media (min-width: $lg) {
+      font-size: 18px !important;
+    }
+  }
+  h6 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+
+    a {
+      color: $primary !important;
+    }
+    @media (min-width: $lg) {
+      font-size: 18px !important;
+    }
+  }
+  iframe {
+    width: 100% !important;
+  }
+  table {
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    tr {
+      border: 1px solid $black !important;
+      padding: 0.5rem !important;
+    }
+  }
+}
+.fotocap {
+  position: absolute;
+  margin-top: -102px;
+  height: 102px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.nav-jadwal {
+  .nav-link {
+    background-color: $gray-bg-light !important;
+
+    &.active {
+      background-color: $white !important;
+    }
+  }
+}
+.nav-klasemen {
+  .nav-link {
+    background-color: $gray-bg-light !important;
+
+    &.active {
+      background-color: $white !important;
+    }
+  }
+}
+.headline-category-carousel {
+  .owl-nav {
+    width: 98.7% !important;
+  }
+}
+.title-section {
+  h4 {
+    font-size: 16px !important;
+
+    @media (min-width: $md) {
+      font-size: 18px !important;
+    }
+
+    @media (min-width: $lg) {
+      font-size: 20px !important;
+    }
+  }
+  a {
+    font-size: 12px !important;
+
+    @media (min-width: $xl) {
+      font-size: 14px !important;
+    }
+  }
+}
+.sticky-top-share-detail {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 98px;
+  z-index: 1020;
+}
+// Responsive Breaking News Text
+.breaking-news-sec {
+  .text-title {
+    font-size: 12px !important;
+  }
+  #boxBreaking {
+    a {
+      font-size: 12px !important;
+    }
+  }
+  .text-date {
+    font-size: 12px !important;
+  }
+  @media (min-width: $lg) {
+    .text-title {
+      font-size: 14px !important;
+    }
+    #boxBreaking {
+      a {
+        font-size: 14px !important;
+      }
+    }
+    .text-date {
+      font-size: 14px !important;
+    }
+  }
+}
+.border-black {
+  border-color: #000000 !important;
+}
+.top-76 {
+  top: 76px !important;
+}

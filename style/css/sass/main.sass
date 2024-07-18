@@ -1,0 +1,114 @@
+// Theme Name: HTML StarterKit
+// Theme URI: https://github.com/fahmadrifki/html-starterkit2
+// Description: HTML StarterKit versi 2.0
+// Author: Ahmad Rifki Fachrudin
+// Author URI: https://fahmadrifki.github.io/
+// Version: 2.0
+
+// Import Partial SASS
+
+// Import base variable
+@import "./base/_variable"
+
+// Import base mixin
+@import "./base/_mixin"
+
+// Import base color
+@import "./base/_color"
+
+// Import base typography
+@import "./base/_typography"
+
+// Import base image
+@import "./base/_image"
+
+// Import component button
+@import "./component/_button"
+
+// Import component card
+@import "./component/_card"
+
+// Import component footer
+@import "./component/_footer"
+
+// Import component header
+@import "./component/_header"
+
+// Import component owl-nav
+@import "./component/_owl-nav"
+
+// Import component search
+@import "./component/_search"
+
+// Import component custom
+@import "./component/_custom"
+
+// Import component custom google search
+@import "./component/_customgooglesearch"
+
+
+/*--- Scroll Horizontal ---*/
+.scroll 
+ white-space: nowrap
+ overflow-x: auto
+ -webkit-overflow-scrolling: touch
+ -ms-overflow-style: -ms-autohiding-scrollbar
+
+.item-scroll,
+.vertical-align-middle 
+  display: inline-block
+  vertical-align: middle
+
+
+.scroll::-webkit-scrolbar 
+  display: none
+
+/*--- /Scroll Horizontal ---*/
+
+/*-- Add Custom --*/
+.line
+  height: 1px
+
+.schedule-liga-name
+  font-size: .8rem
+
+  @media (min-width: $xxl)
+    font-size: 1rem
+
+.rank-link
+  &.active
+    +box-shadow(0, 3px, 10px, 0,  rgba(0, 0, 0, 0.15), $inset: false)
+
+.list-style-dics
+  list-style-type: disc
+
+.border-primary
+  border-color: $primary !important
+  
+
+// iframe
+//   width: 100% !important
+//   height: 216px !important
+
+//   @media (min-width: $xsm)
+//     height: 216px !important
+
+//   @media (min-width: $sm)
+//     height: 100% !important
+
+//   @media (min-width: $md)
+//     height: 418px !important
+
+//   @media (min-width: $lg)
+//     height: 368px !important
+
+//   @media (min-width: $xl)
+//     height: 424px !important
+
+//   @media (min-width: $xxl)
+//     height: 484px !important
+
+//   @media (min-width: $xxxl)
+//     height: 482px!important
+
+/*-- /Add Custom --*/

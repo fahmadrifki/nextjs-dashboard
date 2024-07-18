@@ -26,9 +26,15 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/**/*.tsx",
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.js",
-    "scripts/seed.js"
+    "scripts/seed.js",
+    "scripts/js/jquery-3.6.0.min.js",
+    "scripts/js/bootstrap/bootstrap.bundle.min.js",
+    "scripts/js/owlcarousel/owl.carousel.js",
+    "scripts/js/wow/wow.min.js",
+    "scripts/js/script.js"
   ],
   "exclude": ["node_modules"]
 }

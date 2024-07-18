@@ -1,0 +1,100 @@
+// Import Rubik Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+/*-- Font --*/
+.roboto {
+  font-family: 'Roboto', sans-serif !important;
+}
+.poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
+.newsreader {
+  font-family: source-serif-pro, Georgia, Cambria, 'Times New Roman', Times,
+    serif;
+}
+.playfair {
+  font-family: 'Playfair Display', serif !important;
+}
+.inter {
+  font-family: 'Inter', sans-serif !important;
+}
+.open-sans {
+  font-family: 'Open Sans', sans-serif !important;
+}
+/*-- /Font --*/
+
+/*--- Text Weight ---*/
+.fw-100 {
+  font-weight: 100 !important;
+}
+.fw-200 {
+  font-weight: 200 !important;
+}
+.fw-300 {
+  font-weight: 300 !important;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+.fw-900 {
+  font-weight: 900 !important;
+} /*--- /Text Weight ---*/
+
+// Font Size
+.fs-9 {
+  font-size: 0.9rem;
+}
+.fs-8 {
+  font-size: 0.8rem;
+}
+// ------------------------
+
+.fs-11 {
+  font-size: 0.688rem;
+}
+.fs-12 {
+  font-size: 0.75rem;
+}
+.fs-13 {
+  font-size: 0.813rem;
+}
+.fs-14 {
+  font-size: 0.875rem;
+}
+.fs-15 {
+  font-size: 0.938rem;
+}
+.fs-16 {
+  font-size: 1rem;
+}
+// /Font Size
+
+// Letter Spacing
+.ls-1 {
+  letter-spacing: 1px;
+}
+.ls-2 {
+  letter-spacing: 2px;
+}
+.ls-3 {
+  letter-spacing: 3px;
+}
+.ls-4 {
+  letter-spacing: 4px;
+}
+.ls-5 {
+  letter-spacing: 5px;
+}
+// /Letter Spacing
